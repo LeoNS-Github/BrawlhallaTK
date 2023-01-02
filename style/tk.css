@@ -1,0 +1,102 @@
+.TK{
+    position: relative;
+    background-image: url("/img/wpp");
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    font-size: 3em;
+    padding: 2em 0;
+}
+.TK::before,.TK::after{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+}
+.TK::before{
+    top: .3em;
+}
+.TK::after{
+    bottom: 0;
+}
+.Player{
+    text-align: center;
+}
+img{
+    margin: auto;
+    width: 65%;
+}
+.PageInfo{
+    min-height: min-content;
+    padding: 1em 0;
+    background: var(--c1);
+    color: var(--c2);
+}
+.BodyText{
+    column-count: 3;
+    margin: 1em;
+	font-size: 2em;
+    text-align: justify;
+	font-family: Calibri;
+}
+.InfoItem{
+    display: inline-block;
+    width: 25%;
+    border: .1em solid var(--c2);
+    text-shadow: 0 0 .2em var(--c3);
+}
+.APIInfo{
+    border-bottom: solid 1px var(--c4);
+    border-top: solid 1px var(--c4);
+    background-color: var(--c1);
+}
+.APIInfo::before{
+    display: block;
+    position: relative;
+    margin: 1em auto;
+    top: .3em;
+    width: 100%;
+    text-align:center;
+}
+.APIInfo::after{
+	display: none;
+}
+.GeneralInfo{
+    width: 26%;
+    margin: 1em;
+	padding: 1em;
+    border: solid 1px var(--c2);
+}
+.AllInfo{
+    margin: 4%;
+	padding: 5px;
+    width: 22%;
+    aspect-ratio:1;
+    background-color: var(--c5);
+    border-radius: 1em;
+    text-align: center;
+}
+.NameInfo{
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+}
+.Legend{
+    margin: 1em;
+	padding: 1em;
+    font-size: 90%;
+    width: 26%;
+    border: .1em solid var(--c2);
+    min-height: min-content;
+    text-align: center;
+}
+.InfoLegend{
+}
+.InfoLegendItem{
+    margin: 1%;
+    width: 30%;
+    background-color: var(--c5);
+    border: solid .2em var(--c1);
+    text-shadow: 0 0 .2em var(--c3);
+    border-radius: .3em;
+}
